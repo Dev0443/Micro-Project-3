@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Lists</title>
+  <style>
+    main{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .list-container {
+      height: 200px; /* Adjust the height as needed */
+      overflow-y: auto;
+    }
+    .topic-container{
+      height: 300px;
+      width: 300px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h4>*Every list is scrollable</h4>
+  </header>
+  <main>
+  <div class="topic-container">
+  <h1>List of all food items</h1>
+  <div class="list-container">
+    <ul id="allFoods"></ul>
+  </div>
+  </div>
+
+  <div class="topic-container">
+  <h1>List of all Vegetables</h1>
+  <div class="list-container">
+    <ul id="vegetables"></ul>
+  </div>
+  </div>
+
+  <div class="topic-container">
+  <h1>List of all Fruits</h1>
+    <div class="list-container">
+    <ul id="fruits"></ul>
+  </div>
+  </div>
+
+  <div class="topic-container">
+  <h1>List of all Proteins</h1>
+    <div class="list-container">
+    <ul id="proteins"></ul>
+  </div>
+  </div>
+
+  <div class="topic-container">
+  <h1>List of all Nuts</h1>
+    <div class="list-container">
+    <ul id="nuts"></ul>
+  </div>
+  </div>
+
+  <div class="topic-container">
+  <h1>List of all Grains</h1>
+    <div class="list-container">
+    <ul id="grains"></ul>
+  </div>
+  </div>
+
+  <div class="topic-container">
+  <h1>List of all Dairy</h1>
+    <div class="list-container">
+    <ul id="dairy"></ul>
+  </div>
+  </div>
+
+  <div class="topic-container">
+  <h1>List of all food with calorie above 100</h1>
+    <div class="list-container">
+    <ul id="highCalorie"></ul>
+  </div>
+  </div>
+
+  <div class="topic-container">
+  <h1>List of all food with calorie below 100</h1>
+    <div class="list-container">
+    <ul id="lowCalorie"></ul>
+  </div>
+  </div>
+
+  <div class="topic-container">
+  <h1>List of all food protein in descending order</h1>
+    <div class="list-container">
+    <ul id="highProtein"></ul>
+  </div>
+  </div>
+
+  <div class="topic-container">
+  <h1>List of all food Carb in ascending order</h1>
+    <div class="list-container">
+    <ul id="lowCarb"></ul>
+  </div>
+  </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
